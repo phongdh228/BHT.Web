@@ -1,6 +1,14 @@
 body, html {
+  box-sizing:border-box;
+  box-sizing:inherit;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  overflow-x:hidden;
   height: 100%;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0;
+  font-size:15px;
+  line-height:1.5;
+  font-family:Verdana, sans-serif;
 }
 /*header cover image*/
 .bg-img{
@@ -50,7 +58,7 @@ body, html {
   background-color:#000!important
 }
 
-/*hooter*/
+/*footer*/
 .footer-container{
   width: 100%;
   padding:64px;
@@ -59,12 +67,16 @@ body, html {
   text-align:center;
   font-size:12px;
   display: inline-block;
+  font-size: 13px;
+}
+
+.justify-display{
+  text-align: justify;
 }
 
 .three-col{
   float:left;
   width:33%;
-  padding:0 8px;
 }
 
 /*contact*/
@@ -92,3 +104,4 @@ body, html {
 .highlight-tag{
   background-color: #000;
 }
+
