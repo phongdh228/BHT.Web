@@ -14,45 +14,32 @@
 <body>
 
 <!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s2">
-      <a href="#home" class="w3-button w3-block w3-black">TRANG CHỦ</a>
+<div class="top-bar">
+  <div class="row nav-bar">
+    <div class="nav-col">
+      <a href="#home" class="nav-button">TRANG CHỦ</a>
     </div>
-    <div class="w3-col s2">
-      <a href="#activities" class="w3-button w3-block w3-black">HOẠT ĐỘNG</a>
+    <div class="nav-col">
+      <a href="#activities" class="nav-button">HOẠT ĐỘNG</a>
     </div>
-    <div class="w3-col s2">
-      <a href="#training" class="w3-button w3-block w3-black">CHUỖI TRAINING</a>
+    <div class="nav-col">
+      <a href="#training" class="nav-button">CHUỖI TRAINING</a>
     </div>
-    <div class="w3-col s2">
-      <a href="#reference" class="w3-button w3-block w3-black">TÀI LIỆU</a>
+    <div class="nav-col">
+      <a href="#reference" class="nav-button">TÀI LIỆU</a>
     </div>
-    <div class="w3-col s2">
-      <a href="#about" class="w3-button w3-block w3-black">VỀ CHÚNG MÌNH</a>
+    <div class="nav-col">
+      <a href="#about" class="nav-button">VỀ CHÚNG MÌNH</a>
     </div>
-    <div class="w3-col s2">
-      <a href="#more" class="w3-button w3-block w3-black">NỘI DUNG KHÁC</a>
+    <div class="nav-col">
+      <a href="#more" class="nav-button">NỘI DUNG KHÁC</a>
     </div>
   </div>
 </div>
 
 <!-- Header with image -->
-<header class="bgimg w3-display-container" id="home">
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">Khu phố 6, Phường Linh Trung, Thành phố Thủ Đức</span>
-  </div>
+<header class="bg-img" id="home">
 </header>
-
-<!-- Sidebar (hidden by default) -->
-<!-- <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()"
-    class="w3-bar-item w3-button">Close Menu</a>
-    <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-  </nav> -->
-
-
 
 <!-- Đoạn từ đây trở xuống là viết nội dung nè-->
 <div class="w3-container" id="about">
@@ -143,9 +130,9 @@
 <!--=======================KÉT THÚC NỘI DUNG======================================-->
 
 <!-- Footer -->
-<footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-    <div class="w3-row-padding">
-      <div class="w3-col s4">
+<footer class="footer-container" id="footer">
+    <div class="row">
+      <div class="three-col">
         <h4>Liên hệ</h4>
         <p>Đừng ngần ngại thắc mắc về chúng mình nhé!</p>
         <form action="/action_page.php" target="_blank">
@@ -153,11 +140,11 @@
           <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Chủ đề" name="Subject" required></p>
           <p><input class="w3-input w3-border" type="text" placeholder="Nội dung" name="Message" required></p>
-          <button type="submit" class="w3-button w3-block w3-black">Gửi</button>
+          <button type="submit" class="nav-button">Gửi</button>
         </form>
       </div>
 
-      <div class="w3-col s4">
+      <div class="three-col">
         <h4>Về chúng mình</h4>
         <p><a href="#">Đội ngũ nhân sự</a></p>
         <p><a href="#">Tuyển thành viên</a></p>
@@ -166,7 +153,7 @@
         <p><a href="#">Hỗ trợ</a></p>
       </div>
 
-      <div class="w3-col s4 w3-justify">
+      <div class="three-col" style="text-align: justify;">
         <h4>Đơn vị</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Ban Học tập Khoa học & Kỹ thuật Thông tin</p>
         <p><i class="fa fa-fw fa-phone"></i> 0392344310</p>
@@ -179,12 +166,11 @@
           <span class="w3-tag w3-black w3-margin-bottom">Training</span> 
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">RoM</span> 
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ân sư Vĩnh ký</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Youtube</span> 
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Page</span> 
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Đề thi</span> 
           <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tài liệu</span>
         </p>
         <br>
-        
       </div>
     </div>
   </footer>

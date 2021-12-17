@@ -1,15 +1,67 @@
 body, html {
-    height: 100%;
-    font-family: "Inconsolata", sans-serif;
-  }
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
   
-  .bgimg {
-    background-position: center;
-    background-size: cover;
-    background-image: url("./images/CoverYT.png");
-    min-height: 60%;
-  }
+.bg-img{
+  background-position: center;
+  background-size: cover;
+  background-image: url("./images/CoverYT.png");
+  min-height: 60%;
+}
+
+.top-bar{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0
+}
+
+.row{
+  display:table;
+  clear:both;
+  width: 100%;
   
-  .menu {
-    display: none;
-  }
+}
+
+.nav-bar{
+  padding:8px 16px;
+  color:#fff;
+  background-color:#000
+}
+
+.nav-col{
+  float:left;
+  width: 16.6666%;
+}
+
+.three-col{
+  width:33.33333%;
+  padding:0 8px;
+}
+
+.nav-button{
+  border:none;
+  border-radius: 3px;
+  display:inline-block;
+  padding:8px 16px;
+  overflow:hidden;
+  text-decoration:none;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  width:100%;
+  color:#fff!important;
+  background-color:#000!important
+}
+
+.footer-container{
+  padding:64px;
+  color:#000;
+  background-color:#f1f1f1;
+  text-align:center;
+  font-size:12px;
+
+}
+
