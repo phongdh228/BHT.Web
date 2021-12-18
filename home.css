@@ -1,4 +1,6 @@
-
+.home-title{
+    text-align: center;
+}
 .content-container{
     width: 100%;
     padding: 64px 10px 0 10px !important;
@@ -39,16 +41,17 @@
     height: auto;
 }
 
-.detail-btn{
-    background-color: rgb(128, 128, 128);
+.content-title{
+    text-decoration: none;
+    color: inherit;
+}
+
+#see-more-btn{
     padding: 10px 30px;
-    border-radius: 5px;
-    border: none;
+    margin: 50px;
+    width: 300px;
+    background-color: rgb(65, 65, 65);
     color: white;
-    width: 200px;
-    font-size: 13px;
-    font-weight:bolder;
-    overflow:hidden;
-    text-decoration:none;
-    cursor: pointer;
+    border:none;
+    border-radius: 5px;
 }
