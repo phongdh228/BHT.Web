@@ -23,4 +23,9 @@
     line-height: 1.1px auto;
   }
   .color1{color: #9394ab;}
+  .size-avt{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
   
