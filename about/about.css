@@ -1,0 +1,13 @@
+.main{
+    display: inline-block;
+}
+
+.main-content{
+    width: 60%;
+    padding: 0 50px;
+    text-align:center ;
+}
+
+.content{
+    text-align: justify;
+}
