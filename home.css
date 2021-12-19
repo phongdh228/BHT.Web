@@ -1,6 +1,7 @@
 .home-title{
     text-align: center;
 }
+
 .content-container{
     width: 100%;
     padding: 64px 10px 0 10px !important;
@@ -9,6 +10,7 @@
     clear:both;
     
 }
+
 .content{
     margin:auto;
     display: grid;
