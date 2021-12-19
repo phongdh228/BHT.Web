@@ -1,0 +1,31 @@
+.bg1{
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.button {
+    background-color: white; 
+    border:solid;
+    color: #71b7b7;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+      border-radius: 50%;
+    }
+  .bg2{ padding: 12px;
+        text-align: left;
+        display: inline-block;
+        background-color: #e7e6e6c0;
+        width: 30%;
+        margin: 10px;}
+  .cent{
+      text-align: center;
+  }
+  img{
+      width: 100px;
+  }
