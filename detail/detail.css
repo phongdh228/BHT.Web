@@ -1,0 +1,30 @@
+
+
+.container{
+    display: inline-block;
+    padding: 30px 100px;
+    width: 1200px;
+}
+
+.title-img{
+    float: left;
+    margin: 20px;
+}
+
+.responsive-img{
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content{
+    margin: 20px;
+    width: 500px;
+    float: left;
+    text-align: justify;
+}
+
+.content a{
+    text-decoration: none;
+    color: inherit;
+}
