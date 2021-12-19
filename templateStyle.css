@@ -14,7 +14,7 @@ body, html {
 .bg-img{
   background-position: center;
   background-size: cover;
-  background-image: url("./../images/CoverYT.png");
+  background-image: url("./images/CoverYT.png");
   min-height: 60%;
 }
 
