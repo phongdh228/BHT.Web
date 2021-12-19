@@ -1,6 +1,22 @@
-.sty-word{display: inline-block;vertical-align: top;margin: 50px;font-family: Arial, Helvetica, sans-serif;width:36% ;}
-.blue{color: blue;}
-.sty-word-body{width: 50%;display: inline-block;vertical-align: top;margin: 50px;font-family: Arial, Helvetica, sans-serif;}
+.main{
+    margin: 50px;
+}
+.sty-word{
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px;font-family: Arial, Helvetica, sans-serif;
+    width:36% ;
+}
+.blue{
+    color: blue;
+}
+.sty-word-body{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .button {
     background-color: white;
     border: none;
