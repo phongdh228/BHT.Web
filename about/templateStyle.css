@@ -1,5 +1,4 @@
 body, html {
-
   box-sizing:border-box;
   box-sizing:inherit;
   -ms-text-size-adjust:100%;
@@ -10,7 +9,6 @@ body, html {
   font-size:15px;
   line-height:1.5;
   font-family:Verdana, sans-serif;
-
 }
 /*header cover image*/
 .bg-img{
@@ -59,6 +57,7 @@ body, html {
   background-color:#000!important
 }
 
+/*footer*/
 .footer-container{
   width: 100%;
   padding:64px;
@@ -67,6 +66,11 @@ body, html {
   text-align:center;
   font-size:12px;
   display: inline-block;
+  font-size: 13px;
+}
+
+.justify-display{
+  text-align: justify;
 }
 
 .three-col{

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../fontawesome/css/all.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">  
     <link rel="stylesheet" href="./templateStyle.css">
+    <link rel="stylesheet" href="./login.css">
     <script src="./templateScript.js"></script>
-    <link rel="icon" href="./../images/LogoBHT.png">
+    <link rel="icon" href="../images/LogoBHT.png">
     <title>Ban Học tập Khoa học Kỹ thuật Thông tin</title>
 </head>
 
@@ -17,7 +19,7 @@
 <div class="top-bar">
   <div class="row nav-bar">
     <div class="nav-col">
-      <a href="home.html" class="nav-button">TRANG CHỦ</a>
+      <a href="#home" class="nav-button">TRANG CHỦ</a>
     </div>
     <div class="nav-col">
       <a href="#activities" class="nav-button">HOẠT ĐỘNG</a>
@@ -25,10 +27,8 @@
     <div class="nav-col">
       <a href="#training" class="nav-button">CHUỖI TRAINING</a>
     </div>
-
     <div class="nav-col">
       <a href="#reference" class="nav-button">TÀI LIỆU</a>
-
     </div>
     <div class="nav-col">
       <a href="#about" class="nav-button">VỀ CHÚNG MÌNH</a>
@@ -44,7 +44,31 @@
 </header>
 
 <!--Editable Field-->
+<h2>Đăng nhập</h2>
 
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="../images/LogoBHT.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container background-dk">
+    <button type="button" class="cancelbtn">Đăng ký</button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div>
+</form>
 <!--End of Editable Field-->
 
 <!-- Footer -->
@@ -71,13 +95,14 @@
         <p><a href="#">Hỗ trợ</a></p>
       </div>
 
-
-      <div class="three-col justify-display">
-
+      <div class="three-col" style="text-align: justify;">
         <h4>Đơn vị</h4>
         <p><i class="fas fa-book-open"></i> Ban Học tập Khoa học & Kỹ thuật Thông tin</p>
         <p><i class="fas fa-phone-alt"></i> 0392344310</p>
         <p><i class="fas fa-envelope"></i> bhtcntt@gmail.com</p>
+        <a href="https://www.facebook.com/BHTKHKTTT" target="blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.youtube.com/c/BHTKHKTTT" target="blank"><i class="fab fa-youtube"></i></a>
+        
 
         <h4>Được quan tâm</h4>
         <p>
@@ -88,8 +113,6 @@
           <span class="tag">Đề thi</span> 
           <span class="tag">Tài liệu</span>
         </p>
-          <a href="https://www.facebook.com/BHTKHKTTT" target="blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.youtube.com/c/BHTKHKTTT" target="blank"><i class="fab fa-youtube"></i></a>
         <br>
       </div>
     </div>

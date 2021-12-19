@@ -1,22 +1,12 @@
 body, html {
-
-  box-sizing:border-box;
-  box-sizing:inherit;
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%;
-  overflow-x:hidden;
   height: 100%;
-  margin:0;
-  font-size:15px;
-  line-height:1.5;
-  font-family:Verdana, sans-serif;
-
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*header cover image*/
 .bg-img{
   background-position: center;
   background-size: cover;
-  background-image: url("./../images/CoverYT.png");
+  background-image: url("../images/CoverYT.png");
   min-height: 60%;
 }
 
@@ -35,6 +25,7 @@ body, html {
 }
 
 .nav-bar{
+  padding:8px 16px;
   color:#fff;
   background-color:#000
 }
@@ -59,6 +50,7 @@ body, html {
   background-color:#000!important
 }
 
+/*hooter*/
 .footer-container{
   width: 100%;
   padding:64px;
@@ -72,6 +64,7 @@ body, html {
 .three-col{
   float:left;
   width:33%;
+  padding:0 8px;
 }
 
 /*contact*/
@@ -99,4 +92,3 @@ body, html {
 .highlight-tag{
   background-color: #000;
 }
-
