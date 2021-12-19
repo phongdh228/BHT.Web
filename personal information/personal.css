@@ -9,11 +9,11 @@
 }
 
 .col:nth-child(even) {
-  background-color: rgba(113, 236, 65, 0.589);
+  background-color: rgb(255, 255, 255);
 }
 
 .col:nth-child(odd) {
-  background-color: rgba(124, 244, 196, 0.838);
+  background-color: rgba(209, 212, 211, 0.651);
 }
 
 .wid{
