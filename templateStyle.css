@@ -14,7 +14,7 @@ body, html {
 .bg-img{
   background-position: center;
   background-size: cover;
-  background-image: url("./../images/CoverYT.png");
+  background-image: url("./images/CoverYT.png");
   min-height: 60%;
 }
 
@@ -33,13 +33,14 @@ body, html {
 }
 
 .nav-bar{
+  padding:8px 0;
   color:#fff;
   background-color:#000
 }
 
 .nav-col{
   float:left;
-  width: 16.6666%;
+  width: 14.28%;
 }
 
 .nav-button{
@@ -104,3 +105,7 @@ body, html {
   background-color: #000;
 }
 
+h3{
+  color:white;
+  height: 200px;
+}
