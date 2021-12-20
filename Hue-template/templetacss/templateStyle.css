@@ -15,25 +15,44 @@ body {
 }
 
 /* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+/*header bar*/
+.top-bar{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.row{
+  clear:both;
+  width: 100%;
+
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.nav-bar{
+  padding:8px 0;
+  color:#fff;
+  background-color:#000
+}
+
+.nav-col{
+  float:left;
+  width: 14.28%;
+}
+
+.nav-button{
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  overflow:hidden;
+  text-decoration:none;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  width:100%;
+  color:#fff!important;
+  background-color:#000!important
 }
 
 
