@@ -3,11 +3,18 @@
 }
 
 .main-content{
-    width: 60%;
+    width: 50%;
     padding: 0 50px;
     text-align:center ;
+    display: inline-block;
 }
 
 .content{
     text-align: justify;
+    float: left;
+}
+
+.img  {
+    float: left;
+    margin: 50px 30px;
 }
