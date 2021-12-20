@@ -1,0 +1,338 @@
+body {
+  background-color: #1d232f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  color: white;
+  padding: 95px 0;
+}
+.signup-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.signup-introduce {
+  font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.signup-script {
+  font-size: 20px;
+  color: #b0b5b8;
+  margin-top: 30px;
+}
+.signup-box {
+  width: 280px;
+  height: 160px;
+  background-color: #373b46;
+  padding: 18px 24px;
+  border-top: 10px solid #3d414e;
+  border-radius: 4px;
+}
+.box-title {
+  font-size: 24px;
+  font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
+}
+.box-script {
+  color: #b0b5b8;
+  font-size: 13px;
+}
+.box-button {
+  font-weight: 500;
+  background-color: #d52c82;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  margin: 18px 0;
+  padding: 2px 21px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #d52c82;
+  transition-duration: 0.2s;
+}
+.signup-left {
+  width: 500px;
+  display: block;
+  margin-right: 100px;
+}
+.box-button:hover {
+  border: 1px solid #000;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.offer-list {
+  padding: 32px 48px;
+  display: flex;
+}
+.offers {
+  width: 25%;
+  background: white;
+  color: #000;
+  padding: 18px;
+  border-top: 8px solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+.offer-title {
+  font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+.offer-price {
+  font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 18px 18px 0 0;
+  border-top: 1px solid #cdd3d8c2;
+}
+.offer-frequent {
+  color: #636d75;
+  font-size: 13px;
+}
+.offer-script {
+  color: #636d75;
+  font-size: 13px;
+  padding-bottom: 18px;
+}
+.offers:nth-child(1) {
+  border-color: #6795fe;
+}
+.offers:nth-child(2) {
+  border-color: #e0bd56;
+}
+.offers:nth-child(2) .offer-button {
+  background-color: #d52c82;
+  color: white;
+  border-color: #d52c82;
+}
+.offers:nth-child(2) .offer-button:hover {
+  background-color: #d52c82;
+  color: white;
+  border-color: #000;
+}
+.offers:nth-child(3) {
+  border-color: #e38a40;
+}
+.offers:nth-child(4) {
+  border-color: #aa5fe6;
+}
+.offer-button {
+  margin: 18px 0 18px 0;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 7px 21px;
+  border-bottom: 2px solid gray;
+  font-weight: 700;
+  transition-duration: 0.2s;
+}
+.offer-button:hover {
+  border-color: #000;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.container {
+  position: relative;
+}
+.popular {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  color: white;
+  background-color: #d52c82;
+  font-size: 11px;
+  padding: 4px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.modal-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-container {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+  padding: 15px;
+  display: flex;
+  min-height: 210px;
+}
+.active {
+  display: flex;
+}
+.active > .modal-overlay {
+  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.active > .modal-container {
+  animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.out > .modal-overlay {
+  animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.out > .modal-container {
+  animation: scaleDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.active + .content {
+  animation: scaleBack 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.out + .content {
+  animation: scaleForward 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.modal-container > i {
+  color: #000;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.modal-container > i:hover {
+  cursor: pointer;
+}
+.modal-container .modal-content {
+  color: #000;
+  font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-container .buy-button {
+  background-color: #d52c82;
+  color: white;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px 0;
+  margin-top: 50px;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+}
+.modal-container .buy-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.modal-container .buy-button:active {
+  font-size: 17px;
+}
+.buy-success {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.success-icon {
+  background-color: rgb(0, 192, 157);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+}
+.success-icon > i {
+  color: white;
+  margin: auto;
+  font-size: 60px;
+}
+.success-text {
+  font-size: 20px;
+  color: rgb(44, 42, 42);
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.OpenBuySuccess {
+  display: flex;
+  animation: fade 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@keyframes fadeIn {
+  0% {
+    background: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.8) translateY(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleBack {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.85);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes quickScaleDown {
+  0% {
+    transform: scale(1);
+  }
+  99.9% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes scaleDown {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8) translateY(1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleForward {
+  0% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
