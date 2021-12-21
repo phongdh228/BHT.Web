@@ -17,12 +17,17 @@
   .button1 {
       border-radius: 50%;
     }
-  .bg2{ padding: 12px;
-        text-align: left;
-        display: inline-block;
-        background-color: #e7e6e6c0;
-        width: 30%;
-        margin: 10px;}
+.bg2{ 
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  background-color: #e7e6e6c0;
+  width: 30%;
+  margin: 10px;
+}
+.bg2 p{
+  text-align: justify;
+}
   .cent{
       text-align: center;
   }
